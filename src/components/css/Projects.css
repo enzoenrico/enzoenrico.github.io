@@ -1,0 +1,37 @@
+.projects-main{
+    width: 99vw;
+    height: 100vh;
+}
+
+.project-text{
+    display: flex;
+    justify-content: center;
+}
+
+.scroller{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-project{ 
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5px;
+    padding: 5px;
+
+}
+.text{
+    margin: 5px;
+    font-size: 2vh;
+}
+
+img{
+    width: 20vw;
+
+    /* margin: 5px; */
+}

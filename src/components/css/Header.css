@@ -1,0 +1,17 @@
+.header-main{
+    width: 100vw;
+    height: 5vh;
+    /* color: white; */
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redirect{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+
+}

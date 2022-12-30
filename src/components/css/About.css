@@ -1,0 +1,49 @@
+.about-main{
+    width: 100vw;
+    height: 100vh;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.about-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-text{
+    width: 50vw;
+    max-width: 50vw;
+}
+
+.about-img{
+    min-width: 50vw;
+    /* max-height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-about{
+    width: 50vw;
+    height: 75vh;
+    
+}
+
+.skills-icons{
+    /* border: 2px solid blue; */
+
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.skill-indiv{
+    padding-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+.footer-main{
+    width: 100vw;
+    height: 7vh;
+    border-top: 2px solid black;
+
+}
+
+.footer-icons{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.icon{
+    font-size: 3vh;
+}
+
+.footer-text{
+    font-size: 2vh;
+    width: 100vw;
+    text-align: center;
+}
+
