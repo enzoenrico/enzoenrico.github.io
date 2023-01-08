@@ -1,10 +1,8 @@
 import "./css/Header.css"
-import { useRef } from "react";
+
+import pdf from "../resources/Curriculum2.pdf"
 
 function Header(){
-    
-
-
     return(
         <div className="header-main">
             <p className="redirect">Home</p>
@@ -12,6 +10,7 @@ function Header(){
             <p className="redirect">Projetos</p>
             <p className="redirect">Sobre mim</p>
             <p className="redirect">Contato</p>
+            <p className="redirect"><a href={pdf}>Curriculum </a> </p>
             {/* <p className="redirec">P</p> */}
         </div>
     )

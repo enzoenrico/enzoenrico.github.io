@@ -1,17 +1,27 @@
 .header-main{
+    /* background-color: #A68BA5; */
+
     width: 100vw;
     height: 5vh;
     /* color: white; */
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #219EBC;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: #132561;
+
 }
 
 .redirect{
     padding: 5px;
     margin: 5px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 2vh;
+    transition: 0.5s;
 
+}
+
+.redirect:hover{
+    transition: 0.5s;
+    color:#219EBC;
 }

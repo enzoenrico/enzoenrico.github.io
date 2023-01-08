@@ -5,6 +5,14 @@
     text-decoration: none;
 }
 
+.name-div{
+    font-size: 4vh;
+}
+
+.info-div{
+    font-size: 3vh;
+}
+
 .main-info{
     width: 50vw;
     height: 100vh;
@@ -17,7 +25,16 @@
 .icons-main{
     display: flex;
     justify-content: space-evenly;
+    font-size: 3vh;
 }
+
+.icons-main a{
+    color:#FFB703;
+}
+.icons-main a:hover{
+    color:#FB8500;
+}
+
 
 .pic-div{
 
@@ -39,7 +56,7 @@
 
     width: 100vw;
 
-    font-size: 20px;
+    font-size: 3vh;
 }
 
 
@@ -52,11 +69,14 @@
     font-size: 20px;
     margin: 1vw;
 
-    color: gray;
+    color:#219EBC;
 }
 
+.h1{
+    color: #132561;
+}
 .special{
-    color: rgb(201, 28, 169);
+    color: #132561;
     text-decoration: underline;
     /* font-size: 20px; */
 }
