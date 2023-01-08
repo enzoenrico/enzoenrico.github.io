@@ -6,8 +6,8 @@ function Contact(){
   return (
     <div className="contact-wrapper" id='contact'>
       <div className='contact-message'>
-        Caso tenha alguma ideia, projeto ou apenas queira dar um oi, sinta se livre para me enviar uma mensagem com o formulario ao lado! <br />
-        Nao se esqueca de inserir seu nome e email para que eu possa lhe retornar a mensagem!
+        Caso tenha alguma ideia, projeto ou apenas queira dar um oi, sinta-se livre para me enviar uma mensagem com o formulário ao lado! <br />
+        Não se esqueca de inserir seu nome e email para que eu possa lhe retornar a mensagem!
       </div>
 
       <div className='message-form'>

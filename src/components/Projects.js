@@ -18,7 +18,7 @@ function Projects() {
                     </div>
                     <div className="text">
                         <b className="proj-title">Umirror</b> <br></br>
-                        O espelho uMirror foi um projeto realizado como TCC para o 3 ano do ensino medio TecPuc. O projeto se trata de um espelho com funções de reconhecimento facial e algoritimos para reconhecimento emocional, com os dados obtidos pelo espelho, recomendações sao feitas para melhorar o dia do usuário.
+                        O espelho uMirror foi um projeto realizado como TCC para o 3 ano do ensino médio TecPuc. O projeto se trata de um espelho com funções de reconhecimento facial e algoritimos para reconhecimento emocional, com os dados obtidos pelo espelho, recomendações são feitas para melhorar o dia do usuário.
                     </div>
                 </div>
                 <div className="projects-scroller">
@@ -29,7 +29,7 @@ function Projects() {
                     </div>
                     <div className="text">
                         <b className="proj-title">Landing page</b> <br></br>
-                        Projeto realizado para o estudo de estruturacao web. Utilizando puramente HTML, CSS e Javascript, o projeto bookmarks uteis, design responsivo e search engine rapidamente acessivel
+                        Projeto realizado para o estudo de estruturação web. Utilizando puramente HTML, CSS e Javascript, o projeto possui bookmarks uteis, design responsivo e search engine rapidamente acessivel
                     </div>
                 </div>
                 <div className="projects-scroller">
@@ -40,7 +40,7 @@ function Projects() {
                     </div>
                     <div className="text">
                         <b className="proj-title">Portifolio</b> <br></br>
-                        Criacao, diagramacao e formatacao desse website, utilizando ReactJs para criar um design responsivo e limpo 
+                        Criação, diagramação e formatação desse website, utilizando ReactJs para criar um design responsivo e limpo 
                     </div>
                 </div>
 

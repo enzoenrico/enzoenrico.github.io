@@ -35,7 +35,7 @@ function Info() {
                 {/* <img src={foto} /> */}
 
                 <div className="pic-text">
-                👾 Sou um desenvolvedor full-stack, estudante e entusiasta de tecnologia. Atualmente cursando Engenharia de Software e aberto a oportunidades.
+                ~👾 Sou um desenvolvedor full-stack, estudante e entusiasta de tecnologia. Atualmente cursando Engenharia de Software e aberto a oportunidades.
 
                 </div>
             </div>

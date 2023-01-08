@@ -25,13 +25,13 @@ function About() {
 
                     <div className="skills-icons">
                         <div className="skill-indiv">
-                            <FaPython className="icon-single" /> Anos de experiencia em python com diversos projetos realizados
+                            <FaPython className="icon-single" /> Anos de experiência em python com diversos projetos realizados
                         </div>
                         <div className="skill-indiv">
                             <FaNodeJs className="icon-single"/> Proficiencia em criacao de aplicacoes e servidores utilizando Node.js e seus frameworks
                         </div>
                         <div className="skill-indiv">
-                            <FaLinux className="icon-single"/> Conhecimento e familiaridade em producao e manutencao de servidores e aplicacoes linux
+                            <FaLinux className="icon-single"/> Conhecimento e familiaridade em producao e manutenção de servidores e aplicações linux
                         </div>
                     </div>
 
