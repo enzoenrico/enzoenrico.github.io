@@ -2,7 +2,6 @@
     width: 100vw;
     height: 7vh;
     border-top: 2px solid #219EBC;
-
 }
 
 .footer-icons{
@@ -11,7 +10,7 @@
     justify-content: space-evenly
 }
 
-.icon{
+.icons {
     font-size: 3vh;
     color: #219EBC;
 }

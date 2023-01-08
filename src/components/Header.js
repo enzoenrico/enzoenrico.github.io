@@ -1,18 +1,25 @@
 import "./css/Header.css"
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import pdf from "../resources/Curriculum2.pdf"
 
-function Header(){
-    return(
+function Header() {
+    return (
         <div className="header-main">
-            <p className="redirect">Home</p>
-            {/* <p className="redirect">Quem sou eu</p> */}
-            <p className="redirect">Projetos</p>
-            <p className="redirect">Sobre mim</p>
-            <p className="redirect">Contato</p>
+            <Link className="redirect" to="info" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
+
+            <Link className="redirect" to="projects" spy={true} smooth={true} offset={0} duration={500}> Projetos</Link>
+
+            <Link className="redirect"
+            to="about" spy={true} smooth={true} offset={0} duration={500}>Sobre mim</Link>
+
+            <Link className="redirect" to="contact" spy={true} smooth={true} offset={50} duration={500}>Contato</Link>
+
             <p className="redirect"><a href={pdf}>Curriculum </a> </p>
-            {/* <p className="redirec">P</p> */}
+
         </div>
+
     )
 }
 

@@ -6,7 +6,7 @@ import {FaLinkedin} from "react-icons/fa"
  
 function Info() {
     return (
-        <div className="info-main">
+        <div className="info-main" id="info">
             <div className="main-info">
                 <div className="info-div">
                     <h1 className="name-div">
@@ -35,7 +35,7 @@ function Info() {
                 {/* <img src={foto} /> */}
 
                 <div className="pic-text">
-                    Sou um desenvolvedor full-stack, estudante e entusiasta de tecnologia. Atualmente cursando Engenharia de Software e aberto a oportunidades 👾 .
+                👾 Sou um desenvolvedor full-stack, estudante e entusiasta de tecnologia. Atualmente cursando Engenharia de Software e aberto a oportunidades.
 
                 </div>
             </div>

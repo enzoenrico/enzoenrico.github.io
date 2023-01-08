@@ -2,6 +2,9 @@ import "./css/About.css"
 
 import foto from "../resources/foto.jpg"
 
+import mePic from "../resources/me.jpg"
+import meGym from "../resources/meGym.jpg"
+
 import { FaPython } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
@@ -9,13 +12,15 @@ import { FaLinux } from "react-icons/fa";
 
 function About() {
     return (
-        <div className="about-main">
+        <div className="about-main" id="about">
             <h1 className="about-title">Sobre Mim</h1>
             <div className="about-info">
                 <div className="about-text">
                     <p className="about-title-text"> 🧑‍🎓 Sou um desenvolvedor full-stack atualmente cursando Engenharia de Software.</p> 
                     <p className="about-title-text">
                     🧑‍💻 Criador e fundador do projeto 'uMirror'.</p>  
+                    <p className="about-title-text">
+                    🏋️‍♂️ Bodybuilder em meu tempo livre</p>  
                 
 
                     <div className="skills-icons">
@@ -32,8 +37,8 @@ function About() {
 
                 </div>
                 <div className="about-img">
-                    <img src={foto} className="image-about" />
-                    {/* <img src={foto} className="image-about" /> */}
+                    <img src={mePic} className="image-about" />
+                    <img src={meGym} className="image-about" />
                 </div>
             </div>
         </div>

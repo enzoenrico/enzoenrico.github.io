@@ -35,13 +35,28 @@
 }
 
 .about-img{
-    min-width: 50vw;
+    width: 40vw;
+    height: 80vh;
     /* max-height: 50vh; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 5px;
+    margin: 15px;
     
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.about-img img{
+    width: 40vw;
+    height: 40vh;
+
+    object-fit:cover;
+    margin: 15px;
+
+    border-radius: 15px;
 }
 
 .image-about{

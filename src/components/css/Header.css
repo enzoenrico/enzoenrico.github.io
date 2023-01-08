@@ -9,19 +9,42 @@
     align-items: center;
     justify-content: space-evenly;
     color: #132561;
+    position: fixed;
 
 }
+
+.redirect a{
+    text-decoration: none;
+}
+
 
 .redirect{
     padding: 5px;
     margin: 5px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     font-size: 2vh;
     transition: 0.5s;
+    border: 0;
+    display: inline-block;
+    position: relative;
 
 }
 
-.redirect:hover{
-    transition: 0.5s;
-    color:#219EBC;
-}
+.redirect:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #219EBC;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .redirect:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+

@@ -7,7 +7,7 @@ import portif from "../resources/portifolio-img.png"
 
 function Projects() {
     return (
-        <div className="projects-main">
+        <div className="projects-main" id="projects">
             <h1 className="project-text">Projetos</h1>
             <div className="scroller">
                 <div className="projects-scroller">
