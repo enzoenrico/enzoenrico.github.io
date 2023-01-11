@@ -1,3 +1,8 @@
+.contato-main{
+    font-size: 3vh;
+}
+
+@media screen and (min-width: 651px) {
 .contact-wrapper{
     width: 100vw;
     height: 100vh;
@@ -10,6 +15,7 @@
     width: 40vw;
     font-size: 2.5vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin: 5px;
 }
@@ -18,7 +24,8 @@
     height: 70vh;
     width: 50vw;
     margin: 5px;
-    background-color: #132561;
+    /* background-color: #132561; */
+    border: 2px solid #132561;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -69,4 +76,92 @@ form button{
 
 form button:hover{
     box-shadow: 0.6em 0.6em 0px #ddd92a;
+}
+
+.icons-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+    .contact-wrapper{
+        width: 100vw;
+        /* height: 100vh; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .contact-message{
+        width: 90vw;
+        font-size: 2.5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+    }
+    
+    .message-form{
+        height: 50vh;
+        width: 75vw;
+        margin: 5px;
+        /* background-color: #132561; */
+        border: 2px solid #132561;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 4vw;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 10px;
+        font-size: 3vh;
+    }
+    
+    form h3{
+        margin-bottom: 20px;
+    }
+    
+    form input, form textarea{
+        border: 1px solid white;
+        border-radius: 15px;
+        margin: 10px 0;
+        padding: 20px;
+        outline: none;
+        background-color: #f5f5f5;
+        transition: 0.5s;
+    }
+    
+    form textarea:hover{
+        border: 1px solid #219EBC;
+    }
+    form input:hover{
+        border: 1px solid #219EBC;
+    }
+    
+    form button{
+        background-color: #219EBC;
+        padding: 10px;
+        border: 0;
+        border-radius: 5px;
+    
+        font-size: 2vh;
+        transition: 0.5s;
+    }
+    
+    form button:hover{
+        box-shadow: 0.6em 0.6em 0px #ddd92a;
+    }
+    
 }
