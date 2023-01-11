@@ -1,13 +1,22 @@
 .contato-main{
     font-size: 3vh;
+    overflow-y: hidden;
+}
+.contact-wrapper{
+    overflow-y: hidden;
+}
+
+.icons-contact{
+    overflow-y: hidden;
 }
 
 @media screen and (min-width: 651px) {
+
 .contact-wrapper{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -21,7 +30,7 @@
 }
 
 .message-form{
-    height: 70vh;
+    height: 75vh;
     width: 50vw;
     margin: 5px;
     /* background-color: #132561; */
@@ -107,7 +116,7 @@ form button:hover{
     }
     
     .message-form{
-        height: 50vh;
+        height: 70vh;
         width: 75vw;
         margin: 5px;
         /* background-color: #132561; */

@@ -7,7 +7,6 @@ function Contact() {
 
   return (
     <div className="contact-wrapper" id='contact'>
-      <h1 className='contato-main'>Entre em contato!</h1>
       <div className='contact-message'>
         Caso tenha alguma ideia, projeto ou apenas queira dar um oi, sinta-se livre para me enviar uma mensagem com o formulário ao lado! <br />
         Não se esqueca de inserir seu nome e email para que eu possa lhe retornar a mensagem!<br /><br />

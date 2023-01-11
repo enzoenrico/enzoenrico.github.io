@@ -2,7 +2,7 @@ import "./css/Projects.css"
 import foto from "../resources/foto.jpg"
 import umirror from "../resources/umirror-img.png"
 import startpage from "../resources/startpage-img.png"
-import portif from "../resources/portifolio-img.png"
+import portif from "../resources/linux-server.png"
 
 
 function Projects() {
@@ -13,7 +13,7 @@ function Projects() {
                 <div className="projects-scroller">
                     <div className="img-project">
                         <a href="https://linktr.ee/umirror">
-                        <img src={umirror} />
+                            <img src={umirror} />
                         </a>
                     </div>
                     <div className="text">
@@ -24,7 +24,7 @@ function Projects() {
                 <div className="projects-scroller">
                     <div className="img-project">
                         <a href="https://github.com/enzoenrico/startpage">
-                        <img src={startpage} />
+                            <img src={startpage} />
                         </a>
                     </div>
                     <div className="text">
@@ -35,12 +35,12 @@ function Projects() {
                 <div className="projects-scroller">
                     <div className="img-project">
                         <a href="#">
-                        <img src={portif} />
+                            <img src={portif} />
                         </a>
                     </div>
                     <div className="text">
-                        <b className="proj-title">Portifolio</b> <br></br>
-                        Criação, diagramação e formatação desse website, utilizando ReactJs para criar um design responsivo e limpo 
+                        <b className="proj-title">Servidores Linux</b> <br></br>
+                        Criação e manutenção de servidores linux, utilizando e configurando maquinas locais em sistemas NAS, configurando servidores utilizando AWS e configurando ambientes virtuais em Docker
                     </div>
                 </div>
 
