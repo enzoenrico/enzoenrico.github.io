@@ -17,7 +17,7 @@ function About() {
                     </p>
                     <p className="about-title-text"> 🧑‍🎓 Sou um desenvolvedor full-stack atualmente cursando Engenharia de Software.</p>
                     <p className="about-title-text">
-                        🧑‍💻 Criador e fundador do projeto 'uMirror'.</p>
+                        🧑‍💻 Criador e fundador do projeto <a href="https://umirror.github.io">'uMirror'</a>.</p>
                     <p className="about-title-text">
                         🔓 Entusiasta de cybersegurança e devops.</p>
                     <p className="about-title-text">

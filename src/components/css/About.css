@@ -8,6 +8,7 @@
 
     overflow-y: hidden;
   }
+  
 }
 
 .about-main {
@@ -39,7 +40,11 @@
   }
 
   .about-text {
-    width:100vw;
+    min-width: 70vw;
+  }
+
+  .about-img{
+    min-width: 70vw;
   }
 
 }

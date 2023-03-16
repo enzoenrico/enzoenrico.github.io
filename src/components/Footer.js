@@ -14,9 +14,9 @@ function Footer() {
                     <FaLinkedin />
                 </a>
                 
-                <a href="https://twitter.com/ky0uko__" className="icons">
+                {/* <a href="https://twitter.com/ky0uko__" className="icons">
                     <FaTwitter />
-                </a>
+                </a> */}
             </div>
 
             <h1 className="footer-text">
